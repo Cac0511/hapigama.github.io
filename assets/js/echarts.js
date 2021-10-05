@@ -34,6 +34,9 @@ var myChart1 = echarts.init(document.getElementById('gauge-multi-title'));
                     roundCap: true
                 },
                 data: [{
+
+
+                // First 
                     value: 20,
                     name: '優秀率',
                     title: {
@@ -45,7 +48,10 @@ var myChart1 = echarts.init(document.getElementById('gauge-multi-title'));
                         offsetCenter: ['-40%', '95%'],
                         backgroundColor: '#89AE26',
                     }
-                }, {
+                },
+                
+                // Second 
+                {
             value: 40,
             name: '完成率',
             title: {
@@ -58,6 +64,8 @@ var myChart1 = echarts.init(document.getElementById('gauge-multi-title'));
                  backgroundColor: '#F39518',
             }
         },
+
+                // Third
 
                 {value: 60,
                    name: '達標率',
