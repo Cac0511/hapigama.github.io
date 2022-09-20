@@ -48,7 +48,7 @@ var myChart1 = echarts.init(document.getElementById('gauge-multi-title'));
                         offsetCenter: ['-40%', '95%'],
                         backgroundColor: '#89AE26',
                     }
-                },
+                }, 
                 
                 // Second 
                 {
